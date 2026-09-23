@@ -8,8 +8,7 @@ public class DebugTask6 {
         if (n <= 0) {
             return;
         }
-
-        countdown(n - 1);
         System.out.println(n);
+        countdown(n - 1);
     }
 }
